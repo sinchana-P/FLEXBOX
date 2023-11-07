@@ -38,6 +38,12 @@
 
     align-items: baseline;      /* it aligns all the flex items along the text number 4 on an imaginary line. */
 
+    /* Most used 3 flex properties */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
 
 }
 
@@ -49,10 +55,10 @@
     margin: 10px;
 }
 
-.items-3 {
+/* .items-3 {
     height: 150px;
 }
 
 .items-4{
     font-size: 70px;
-}
+} */
