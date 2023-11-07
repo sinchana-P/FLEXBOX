@@ -36,7 +36,8 @@
     align-items: flex-end;
     align-items: stretch;       /* stretch height to max height of the tallest item */
 
-    
+    align-items: baseline;      /* it aligns all the flex items along the text number 4 on an imaginary line. */
+
 
 }
 
@@ -50,4 +51,8 @@
 
 .items-3 {
     height: 150px;
+}
+
+.items-4{
+    font-size: 70px;
 }
