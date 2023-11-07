@@ -14,6 +14,14 @@
     flex-direction: column;             /* x-axis, y-axis */
     flex-direction: column-reverse;     /* inverted y-axis */
     flex-direction: row-reverse;
+
+    /* justify-content: defines how the flex items shd be stacked along the main axis */
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: flex-start;        /* default */
+    justify-content: flex-end;
 }
 
 .item{
@@ -21,5 +29,5 @@
     color: #fff;
     font-size: 35px;
     padding: 20px;
-    margin: 10px;
+    /* margin: 10px; */
 }
