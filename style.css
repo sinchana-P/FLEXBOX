@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* FLEXBOX: CONTAINER PROPERTIES */
 .container {
     background-color: #cacaca;
     padding: 10px;
@@ -60,11 +61,12 @@
     justify-content: center;
     align-items: center;
 
-    
+
 
 
 }
 
+/* FLEXBOX: CHILD PROPERTIES */
 .item{
     background-color: #ff0037;
     color: #fff;

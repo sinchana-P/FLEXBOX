@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FLEXBOX: CONTAINER PROPERTIES */
+.container {
+    background-color: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* FLEXBOX: CHILD PROPERTIES */
+/* 1. align-self */
+
+.item{
+    background-color: #ff0037;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.items-3 {
+    height: 150px;     /* using .items-3 : as reference point*/ 
+}
+
+.items-4 {
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: stretch;   /* item stretches to match the tallest item i.e "item-3" here */
+}
