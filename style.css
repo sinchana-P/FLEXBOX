@@ -43,6 +43,14 @@
     justify-content: center;
     align-items: center;
 
+    /* When the flex direction is set to column, the main axis would be the y-axis, and the cross axis would be the x-axis */
+    /* Align-items : affects the cross axis. */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-items: flex-end; */
+    align-items: flex-start;
+
 
 
 }
