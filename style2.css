@@ -19,8 +19,9 @@
 
 /* FLEXBOX: CHILD PROPERTIES */
 /* 1. align-self */
-/* 2. order of flex-items */
+/* 2. order */
 /* 3. flex-grow */
+/* 4. flex-basis: same as width. Give value in % or px */
 
 .item{
     background-color: #ff0037;
@@ -78,11 +79,13 @@
 }
 
 .items-4 {
-    flex-grow: 5;
+    /* flex-grow: 5; */
     /*    item-4 is 3 times bigger than the rest of the flex items. 
             flex-grow property works relatively        */
+
+           
 }
 
 .items-5 {
-    
+    flex-basis: 75%; 
 }
