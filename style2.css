@@ -19,6 +19,7 @@
 
 /* FLEXBOX: CHILD PROPERTIES */
 /* 1. align-self */
+/* 2. order of flex-items */
 
 .item{
     background-color: #ff0037;
@@ -29,11 +30,33 @@
 }
 
 .items-3 {
-    height: 150px;     /* using .items-3 : as reference point*/ 
+    /* height: 150px; */
+         /* using .items-3 : as reference point*/ 
 }
 
 .items-4 {
-    align-self: flex-start;
-    align-self: flex-end;
-    align-self: stretch;   /* item stretches to match the tallest item i.e "item-3" here */
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    /* align-self: stretch;    */
+        /* item stretches to match the tallest item i.e "item-3" here */
+}
+
+.items-1 {
+    order: 3;
+}
+
+.items-2 {
+    order: 4;
+}
+
+.items-3 {
+    order: 0;
+}
+
+.items-4 {
+    order: 1;
+}
+
+.items-5 {
+    order: 2;
 }
