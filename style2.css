@@ -22,6 +22,7 @@
 /* 2. order */
 /* 3. flex-grow */
 /* 4. flex-basis: same as width. Give value in % or px */
+/* 5. flex-shrink: 0 or 1. Default : 1 */
 
 .item{
     background-color: #ff0037;
@@ -87,5 +88,6 @@
 }
 
 .items-5 {
-    flex-basis: 75%; 
+    flex-basis: 700px; 
+    flex-shrink: 0;
 }
