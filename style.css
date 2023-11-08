@@ -8,6 +8,7 @@
     background-color: #cacaca;
     padding: 10px;
     margin: 50px;
+    height: 1400px;
 
     display: flex;
     flex-direction: row;                /* default  */
@@ -48,9 +49,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* align-items: flex-end; */
+    align-items: flex-end;
     align-items: flex-start;
 
+    /*  */
+    justify-content: space-between;
 
 
 }
